@@ -2,14 +2,14 @@
 digraph {
 	startingStateH [label=startingStateH style=invis]
 	S0 [label=S0]
-	S2 [label=S2]
 	S1 [label=S1]
+	S2 [label=S2]
 	S3 [label=S3]
 	S4 [label=S4]
 	S5 [label=S5 shape=doublecircle]
 	S0 -> S1 [label=y]
-	S2 -> S3 [label=m]
 	S1 -> S2 [label=o]
+	S2 -> S3 [label=m]
 	S3 -> S4 [label=n]
 	S4 -> S5 [label=a]
 	startingStateH -> S0
