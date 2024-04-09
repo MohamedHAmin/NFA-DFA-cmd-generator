@@ -6,16 +6,16 @@
             "S1"
         ]
     },
-    "S1": {
-        "isTerminatingState": false,
-        "o": [
-            "S2"
-        ]
-    },
     "S2": {
         "isTerminatingState": false,
         "m": [
             "S3"
+        ]
+    },
+    "S1": {
+        "isTerminatingState": false,
+        "o": [
+            "S2"
         ]
     },
     "S3": {
