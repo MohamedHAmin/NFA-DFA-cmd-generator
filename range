@@ -1,0 +1,8 @@
+// NFA
+digraph {
+	startingStateH [label=startingStateH style=invis]
+	S0 [label=S0]
+	S1 [label=S1 shape=doublecircle]
+	S0 -> S1 [label="[A-Z0-9]"]
+	startingStateH -> S0
+}

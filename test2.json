@@ -1,0 +1,28 @@
+{
+    "startingState": "S0",
+    "S0": {
+        "isTerminatingState": false,
+        "[a-zA-Z_$]": [
+            "S1"
+        ]
+    },
+    "S1": {
+        "isTerminatingState": false,
+        "[a-zA-Z0-9_$]": [
+            "S2"
+        ],
+        "\u03b5": [
+            "S3"
+        ]
+    },
+    "S2": {
+        "isTerminatingState": false,
+        "\u03b5": [
+            "S1",
+            "S3"
+        ]
+    },
+    "S3": {
+        "isTerminatingState": true
+    }
+}
