@@ -67,6 +67,9 @@
         "isTerminatingState": false,
         "w": [
             "S11"
+        ],
+        "\u03b5": [
+            "S15"
         ]
     },
     "S11": {
@@ -85,9 +88,6 @@
         "isTerminatingState": false,
         ".": [
             "S14"
-        ],
-        "\u03b5": [
-            "S15"
         ]
     },
     "S14": {
