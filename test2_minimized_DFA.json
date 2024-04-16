@@ -1,0 +1,11 @@
+{
+    "startingState": "S0",
+    "S1": {
+        "isTerminatingState": true,
+        "0-9A-Za-z$_": "S1"
+    },
+    "S0": {
+        "isTerminatingState": false,
+        "A-Za-z$_": "S1"
+    }
+}

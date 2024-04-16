@@ -1,0 +1,27 @@
+// DFA
+digraph {
+	startingStateH [label=startingStateH style=invis]
+	S0 [label=S0]
+	S1 [label=S1 shape=doublecircle]
+	S2 [label=S2 shape=doublecircle]
+	S3 [label=S3 shape=doublecircle]
+	S4 [label=S4 shape=doublecircle]
+	S5 [label=S5 shape=doublecircle]
+	S6 [label=S6 shape=doublecircle]
+	S7 [label=S7 shape=doublecircle]
+	S0 -> S1 [label="a-f"]
+	S0 -> S2 [label="1-9"]
+	S0 -> S3 [label="A-F"]
+	S0 -> S4 [label=0]
+	S1 -> S5 [label="0-9a-f"]
+	S2 -> S5 [label="a-f"]
+	S2 -> S6 [label="0-9"]
+	S2 -> S7 [label="A-F"]
+	S3 -> S7 [label="0-9A-F"]
+	S5 -> S5 [label="0-9a-f"]
+	S6 -> S5 [label="a-f"]
+	S6 -> S6 [label="0-9"]
+	S6 -> S7 [label="A-F"]
+	S7 -> S7 [label="0-9A-F"]
+	startingStateH -> S0
+}

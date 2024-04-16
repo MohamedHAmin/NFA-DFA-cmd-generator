@@ -1,0 +1,11 @@
+// DFA
+digraph {
+	startingStateH [label=startingStateH style=invis]
+	S0 [label=S0]
+	S3 [label=S3 shape=doublecircle]
+	S1 [label=S1 shape=doublecircle]
+	S0 -> S1 [label="a-z_"]
+	S1 -> S1 [label="0-9a-z_"]
+	S1 -> S3 [label="!?"]
+	startingStateH -> S0
+}

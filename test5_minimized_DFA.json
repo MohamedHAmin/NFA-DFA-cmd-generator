@@ -1,0 +1,30 @@
+{
+    "startingState": "S0",
+    "S0": {
+        "isTerminatingState": false,
+        "3-9": "S7",
+        "2": "S2",
+        "1": "S3"
+    },
+    "S8": {
+        "isTerminatingState": true
+    },
+    "S7": {
+        "isTerminatingState": true,
+        "0-9": "S8"
+    },
+    "S3": {
+        "isTerminatingState": true,
+        "0-9": "S7"
+    },
+    "S5": {
+        "isTerminatingState": true,
+        "0-5": "S8"
+    },
+    "S2": {
+        "isTerminatingState": true,
+        "5": "S5",
+        "6-9": "S8",
+        "0-4": "S7"
+    }
+}
