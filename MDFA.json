@@ -1,20 +1,20 @@
 {
-    "S3": {
+    "startingState": "S0",
+    "S5": {
         "isTerminatingState": true,
-        "d": "S3"
+        "d": "S5"
     },
     "S0": {
         "isTerminatingState": false,
         "a": "S1"
     },
+    "S3": {
+        "isTerminatingState": false,
+        "b-c": "S3",
+        "d": "S5"
+    },
     "S1": {
         "isTerminatingState": false,
-        "b": "S5"
-    },
-    "S5": {
-        "isTerminatingState": false,
-        "d": "S3",
-        "b": "S5",
-        "c": "S5"
+        "b": "S3"
     }
 }
