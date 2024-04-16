@@ -4,12 +4,12 @@
         "isTerminatingState": false,
         "a-z_": "S1"
     },
-    "S3": {
-        "isTerminatingState": true
-    },
     "S1": {
         "isTerminatingState": true,
         "0-9a-z_": "S1",
         "!?": "S3"
+    },
+    "S3": {
+        "isTerminatingState": true
     }
 }

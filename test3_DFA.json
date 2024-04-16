@@ -2,40 +2,40 @@
     "startingState": "S0",
     "S0": {
         "isTerminatingState": false,
-        "a-f": "S1",
-        "1-9": "S2",
-        "A-F": "S3",
-        "0": "S4"
+        "A-F": "S1",
+        "a-f": "S2",
+        "0": "S3",
+        "1-9": "S4"
     },
     "S1": {
         "isTerminatingState": true,
-        "0-9a-f": "S5"
+        "0-9A-F": "S5"
     },
     "S2": {
         "isTerminatingState": true,
-        "a-f": "S5",
-        "0-9": "S6",
-        "A-F": "S7"
+        "0-9a-f": "S6"
     },
     "S3": {
-        "isTerminatingState": true,
-        "0-9A-F": "S7"
+        "isTerminatingState": true
     },
     "S4": {
-        "isTerminatingState": true
+        "isTerminatingState": true,
+        "A-F": "S5",
+        "a-f": "S6",
+        "0-9": "S7"
     },
     "S5": {
         "isTerminatingState": true,
-        "0-9a-f": "S5"
+        "0-9A-F": "S5"
     },
     "S6": {
         "isTerminatingState": true,
-        "a-f": "S5",
-        "0-9": "S6",
-        "A-F": "S7"
+        "0-9a-f": "S6"
     },
     "S7": {
         "isTerminatingState": true,
-        "0-9A-F": "S7"
+        "A-F": "S5",
+        "a-f": "S6",
+        "0-9": "S7"
     }
 }
