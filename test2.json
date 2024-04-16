@@ -2,13 +2,13 @@
     "startingState": "S0",
     "S0": {
         "isTerminatingState": false,
-        "[a-zA-Z_$]": [
+        "[a-bA-B_$]": [
             "S1"
         ]
     },
     "S1": {
         "isTerminatingState": false,
-        "[a-zA-Z0-9_$]": [
+        "[a-bA-B0-2_$]": [
             "S2"
         ],
         "\u03b5": [
