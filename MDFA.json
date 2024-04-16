@@ -2,17 +2,12 @@
     "startingState": "S1",
     "S3": {
         "isTerminatingState": true,
-        "c": "S3"
-    },
-    "S2": {
-        "isTerminatingState": false,
-        "c": "S3",
-        "a": "S1",
-        "b": "S2"
+        "a-be-z": "S1",
+        "c-d": "S3"
     },
     "S1": {
         "isTerminatingState": false,
-        "a": "S1",
-        "b": "S2"
+        "a-be-z": "S1",
+        "c-d": "S3"
     }
 }
